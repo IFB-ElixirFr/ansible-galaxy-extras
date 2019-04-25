@@ -33,10 +33,10 @@
   tags:
    - proftpd
 
-- include: slurm.yml
-  when: galaxy_extras_config_slurm
-  tags:
-   - slurm
+#- include: slurm.yml
+#  when: galaxy_extras_config_slurm
+#  tags:
+#   - slurm
 
 - include: pbs.yml
   when: galaxy_extras_config_pbs
